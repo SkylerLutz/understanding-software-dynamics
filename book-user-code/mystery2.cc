@@ -17,7 +17,7 @@
 // Form 1 does naive accessing of data and is subject to all three problems
 // Form 2 builds a linear linked list of items in memory, so that each load
 //  from memory is dependent on the completion of the previous load. It avoids
-//  the first two problems but is sitll subject to prefetching distortion.
+//  the first two problems but is still subject to prefetching distortion.
 // Form 3 builds a scrambled linked list whose purpose is to defeat any 
 //  prefetching hardware.
 
